@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://marlo-longley.github.io/dlf-2023-demo/peel-session-demo/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Peel Session Demo" ] },
+    "provider": [
+      {
+        "id": "https://archive.org/",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://marlo-longley.github.io/dlf-2023-demo/peel-session-demo/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3112.0,
+        "items": [
+          {
+            "id": "https://marlo-longley.github.io/dlf-2023-demo/peel-session-demo/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://marlo-longley.github.io/dlf-2023-demo/peel-session-demo/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia903004.us.archive.org/9/items/JohnPeel1979/14th%20February%201979%20%28Part%201%29.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 3112.0
+                },
+                "target": "https://marlo-longley.github.io/dlf-2023-demo/peel-session-demo/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
